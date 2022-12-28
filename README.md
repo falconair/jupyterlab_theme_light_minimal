@@ -3,6 +3,25 @@
 [![Github Actions Status](https://github.com/falconair/jupyterlab_theme_light_minimal/workflows/Build/badge.svg)](https://github.com/falconair/jupyterlab_theme_light_minimal/actions/workflows/build.yml)
 A minimal JL theme
 
+## Recreate theme
+
+Steps to recreate:
+```
+cookiecutter https://github.com/jupyterlab/extension-cookiecutter-ts
+```
+* Pick 'theme'
+* author_name: Shahbaz Chaudhary
+* author_email: shahbazc@gmail.com
+* labextension_name: jupyterlab_theme_light_minimal
+* test: n
+* repository: https://github.com/falconair/jupyterlab_theme_light_minimal
+
+#### Colors
+```
+    --jp-cell-editor-border-color: var(--jp-layout-color0);
+    --jp-cell-editor-background: var(--jp-layout-color0);
+```
+
 ## Requirements
 
 - JupyterLab >= 3.0
