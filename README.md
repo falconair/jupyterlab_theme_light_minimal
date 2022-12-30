@@ -21,6 +21,19 @@ cookiecutter https://github.com/jupyterlab/extension-cookiecutter-ts
     --jp-cell-editor-border-color: var(--jp-layout-color0);
     --jp-cell-editor-background: var(--jp-layout-color0);
 ```
+#### Test template
+New themes can be tested via this code:
+
+```
+%%html
+
+<style>
+:root {
+    --jp-cell-editor-border-color: var(--jp-layout-color0);
+    --jp-cell-editor-background: var(--jp-layout-color0);
+}
+</style>
+```
 
 ## Requirements
 
